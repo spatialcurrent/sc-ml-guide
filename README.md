@@ -20,7 +20,7 @@ This work is distributed under the **MIT License**.  See **LICENSE** file.
 
 This guide includes a list of classifiers and how they can be used.
 
-# Naive Bayes Classifier
+## Naive Bayes Classifier
 
 A [naive Bayes classifier](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) can be used for simple categorizing of a set of documents.  A simple use case is using 2 related attributes of geospatial features to fill in sparse data, e.g., type of cuisine.
 
@@ -44,7 +44,7 @@ Below is a sample workflow with some `pseudo-code`.
 
 **Data**
 
-See the `data.yml` file in `/data/naive-bayes-classifier` for bootstrapping a classifier to guess the cuisine of a point of interest, based on the name.
+See the `data.yml` file in `/data/naive-bayes-classifier` folder for bootstrapping a classifier to guess the cuisine of a point of interest, based on the name.
 
 # Training Datasets
 
