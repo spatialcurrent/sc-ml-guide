@@ -1,0 +1,19 @@
+---
+
+ - category: cuisine
+   document: name
+   stop_words: [
+      "'", ".", "&", "/", "#",
+      "the", "a", "an", "and",
+      "in", "on", "of", "all",
+      "ii", "s", "'s", "d", "at", "'n", "by", "no", "mr.", "n",
+      "co",
+      "new", "old",
+      "little", "big",
+      "hot", "cold",
+      "city", "downtown", "town", "dc", "district",
+      "room", "place", "street", "country",
+      "restaurant", "cafe", "pub", "carry-out", "out", "store",
+      "cuisine", "kitchen", "shop", "food", "cook",
+      "\xbb", "caf\xc3\xa9"
+    ]
